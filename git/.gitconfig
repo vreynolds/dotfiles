@@ -1,0 +1,22 @@
+[alias]
+	st = status
+	co = checkout
+	ci = commit -S
+        p = pull --prune
+[user]
+	# name = Meow Meow
+	# email = meow@meow.meow
+	# signingkey = ABCDEFG
+[core]
+	excludesfile = /Users/meow/.gitignore
+	autocrlf = input
+[pull]
+	rebase = true
+[gpg]
+	program = gpg
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[push]
+	default = current
+[init]
+	defaultBranch = main

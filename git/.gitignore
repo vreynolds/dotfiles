@@ -1,0 +1,6 @@
+.idea
+.direnv
+.envrc
+.tool-versions
+rider.project.restore.info
+new-in-this-release.log
